@@ -1,0 +1,78 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+h2 {
+    color: #007bff;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #343a40;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+label {
+    text-align: left;
+    font-weight: bold;
+}
+
+.user-info {
+    display: inline-block;
+    background-color: #f8f9fa;
+    color: #343a40;
+    padding: 5px;
+    height: 38px;
+}
+
+.user-name {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.user-role {
+    font-size: 16px;
+}
+
+.pagination-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.pagination-container .text-center {
+    margin-top: 20px;
+}
+
+.pagination-container .arrow {
+    margin: 0 10px 5px;
+    font-size: 40px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.pagination-container .arrow:hover {
+    color: blue;
+}
+
+.arrow {
+    font-weight: bold;
+}
